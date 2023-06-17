@@ -5,19 +5,61 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>加速下载</title>
-    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
     <!--[if lt IE 9]>
-			<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
-			<script src="http://libs.useso.com/js/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
+        <script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+        <script src="http://libs.useso.com/js/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            margin-top: 180px;
+        }
+        
+        .panel {
+            border-radius: 0;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .panel-heading {
+            background-color: #007bff;
+            color: #fff;
+            border-bottom: none;
+            padding: 15px;
+        }
+        
+        .panel-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .panel-body {
+            background-color: #fff;
+            padding: 20px;
+        }
+        
+        .form-control {
+            border-radius: 0;
+        }
+        
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            border-radius: 0;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container" style="padding-top:180px;">
-        <div class="col-xs-12 col-sm-10 col-lg-8 center-block" style="float: none;">
-            <div class="panel panel-primary">
+    <div class="container">
+        <div class="col-xs-12 col-sm-10 col-lg-8 center-block">
+            <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">加速下载</h3>
                 </div>
@@ -36,6 +78,9 @@
         </div>
     </div>
 </body>
-<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "80d49f82b69e4f64bae31a06907f22af"}'></script><!-- End Cloudflare Web Analytics -->
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+    data-cf-beacon='{"token": "80d49f82b69e4f64bae31a06907f22af"}'></script>
+<!-- End Cloudflare Web Analytics -->
 
 </html>
